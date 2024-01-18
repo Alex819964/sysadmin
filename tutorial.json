@@ -2,8 +2,8 @@
   "id": "freeCodeCamp/learn-bash-by-building-a-boilerplate:v1.0.0",
   "version": "1.0.4",
   "summary": {
-    "title": "Learn Bash by Building a Boilerplate",
-    "description": "> Welcome to the Introduction to Bash lessons. I know it's scary, but you can do this!"
+    "title": "Aprende Bash Construyendo una plantilla",
+    "description": "> Bienvenido a las lecciones de Introducción a Bash. Sé que da miedo, ¡pero puedes hacerlo!"
   },
   "config": {
     "setup": {
@@ -72,17 +72,17 @@
               "f7ce5034ba67755d70eabc1239bbf87d9980cb42"
             ]
           },
-          "content": "**The first thing you need to do is start the terminal.** Do that by clicking the \"hamburger\" menu at the top left of the screen, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello terminal` into the terminal and press enter.",
+          "content": "**Lo primero que tienes que hacer es iniciar el terminal.** Para ello, haz clic en el menú \"hamburguesa\" en la parte superior izquierda de la pantalla, ve a la sección \"terminal\" y haz clic en \"nuevo terminal\". Una vez abierto uno nuevo, escribe `echo hola terminal` en el terminal y presiona enter.",
           "hints": [
-            "Capitalization matters",
-            "If the tests don't run automatically, try typing `exit` into the terminal and redoing the instructions"
+            "El uso de mayúsculas y minúsculas es importante",
+            "Si las pruebas no se ejecutan automáticamente, pruebe a escribir `exit` en el terminal y rehacer las instrucciones"
           ]
         }
       ]
     },
     {
       "id": "10",
-      "title": "Print Working Directory",
+      "title": "Imprimir el directorio actual",
       "summary": "",
       "content": "",
       "steps": [
@@ -96,11 +96,11 @@
               "d256891c8b303ad8d971d66b13c30e0dfe5615be"
             ]
           },
-          "content": "What you see in the terminal below is a folder (or directory) on this machine. Type `pwd` into the terminal and press enter to see the path of the folder. `pwd` stands for \"print working directory\".",
+          "content": "Lo que ves en el terminal de abajo es una carpeta (o directorio) en esta máquina. Escriba `pwd` en el terminal y pulse enter para ver la ruta de la carpeta. `pwd` significa \"print working directory\".",
           "hints": [
-            "Type `pwd` into the terminal and press enter",
-            "Make sure you are in the `project` folder when you enter the command",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Escribe `pwd` en el terminal y presiona enter",
+            "Asegúrese de que se encuentra en el directorio `project` cuando introduzca el comando",
+            "Introduzca `cd ~/project` para llegar a la carpeta `project` si no se encuentra allí"
           ]
         }
       ]
@@ -121,18 +121,18 @@
               "6f99e86a037ba48df1076a41a6486ccf577addf3"
             ]
           },
-          "content": "The output tells you where the folder you are in is located. You are in the `project` folder, which is in the `CodeAlly` folder, which is in the `home` folder. Type `ls` into the terminal to see what's in this folder. `ls` stands for \"list\".",
+          "content": "La salida le indica dónde se encuentra el directorio en el que se encuentra. Estás en el directorio `project`, que está en el directorio `CodeAlly`, que está en el directorio `home`. Escriba `ls` en el terminal para ver lo que hay en este directorio. `ls` significa \"list\".",
           "hints": [
-            "Type `ls` into the terminal and press enter",
-            "Make sure you are in the `project` folder when you enter the command",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "Escriba `ls` en el terminal y presione enter",
+            "Asegúrese de que se encuentra en el directorio `project` cuando introduzca el comando",
+            "Introduzca `cd ~/project` para acceder al directorio `project` si no se encuentra allí"
           ]
         }
       ]
     },
     {
       "id": "30",
-      "title": "Change Directory",
+      "title": "Cambiar de Directorio",
       "summary": "",
       "content": "",
       "steps": [
@@ -146,19 +146,19 @@
               "bb2a33287c903df1c0be1e5a14fcdf2b724a6786"
             ]
           },
-          "content": "The output is showing everything in this folder. There's two folders here. You can use `cd <folder_name>` to go into a folder. `cd` stands for \"change directory\". Change to the `freeCodeCamp` directory.",
+          "content": "La salida muestra todo lo que hay en este directorio. Hay dos directorios aquí. Puedes usar `cd <nombre_de_directorio>` para ir a un directorio. `cd` significa \"cambiar directorio\". Cambia al directorio `freeCodeCamp`.",
           "hints": [
-            "Capitalization matters",
-            "Type `cd freeCodeCamp` into the terminal and press enter",
-            "Make sure you start in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+            "El uso de mayúsculas y minúsculas es importante",
+            "Escriba `cd freeCodeCamp` en el terminal y presione enter",
+            "Asegúrese de que inicia en el directorio `project",
+            "Escriba `cd ~/project` para llegar al directorio `project` si no se encuentra allí"
           ]
         }
       ]
     },
     {
       "id": "40",
-      "title": "Print Working Directory",
+      "title": "Imprimir el directorio actual",
       "summary": "",
       "content": "",
       "steps": [
@@ -172,19 +172,19 @@
               "3e0ed1c733c6f888d19ba4313b10b41053f6cc6e"
             ]
           },
-          "content": "You are in the `freecodecamp` folder now. You may have noticed that the prompt changed to include it. Print the working directory of the `freeCodeCamp` folder to see the full path of where you are.",
+          "content": "Ahora estás en el directorio `freecodecamp`. Habrás notado que el prompt ha cambiado para incluirla. Imprime el directorio de trabajo de la carpeta `freeCodeCamp` para ver la ruta completa de donde te encuentras.",
           "hints": [
-            "Use the \"print working directory\" command",
-            "Type `pwd` into the terminal and press enter",
-            "Make sure you are in the `freeCodeCamp` folder first",
-            "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
+            "Use el commando \"print working directory\"",
+            "Escriba `pwd` en el terminal y presione enter",
+            "Asegurese primero de estar en el directorio `freeCodeCamp`",
+            "Escriba `cd ~/project/freeCodeCamp` para llegar al directorio `freeCodeCamp` si no se encuentra allí"
           ]
         }
       ]
     },
     {
       "id": "50",
-      "title": "List",
+      "title": "Lista",
       "summary": "",
       "content": "",
       "steps": [
@@ -198,19 +198,19 @@
               "1ea06817f21d6e2224c85e3fd424bc1ef3dbf69e"
             ]
           },
-          "content": "You can see the path of the `freeCodeCamp` folder. It's in the `project` folder you were just in. List the contents of the `freeCodeCamp` folder to see what's here.",
+          "content": "Puedes ver la ruta del directorio `freeCodeCamp`. Está en el directorio `project` en el que estabas. Lista el contenido del directorio `freeCodeCamp` para ver lo que hay aquí.",
           "hints": [
-            "Use the \"list\" command",
-            "Try typing `ls` into the terminal",
-            "Make sure you are in the `freeCodeCamp` folder first",
-            "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
+            "Use el comando para \"list\"",
+            "Intente escribiendo `ls` en el terminal",
+            "Asegurese de estar en el directorio `freeCodeCamp`",
+            "Escriba `cd ~/project/freeCodeCamp` para llegar al directorio `freeCodeCamp` si no está allí"
           ]
         }
       ]
     },
     {
       "id": "60",
-      "title": "Change Directory",
+      "title": "Cambiar de Directorio",
       "summary": "",
       "content": "",
       "steps": [
@@ -224,20 +224,20 @@
               "708102664fc93c62a74e4b3c05c7d73159db2198"
             ]
           },
-          "content": "There's two folders and three files here. The folders are blue and the files include their extension. Next, change to that `test` directory.",
+          "content": "Aquí hay dos directorios y tres ficheros. Los directorios son azules y los ficheros incluyen su extensión. A continuación, cambia al directorio `test`.",
           "hints": [
-            "Use the \"change directory\" command",
-            "Here's an example: `cd folder-name`",
-            "Try entering `cd test`",
-            "Make sure you enter the command from the `freeCodeCamp` folder",
-            "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
+            "Use el comando para \"cambiar de directorio\"",
+            "Aquí hay un ejemplo `cd nombre-del-directorio`",
+            "Intente escribiendo `cd test`",
+            "Asegurese de ingresar el comando desde el directorio `freeCodeCamp`",
+            "Ingrese `cd ~/project/freeCodeCamp` para llegar al directorio `freeCodeCamp` si no está allí"
           ]
         }
       ]
     },
     {
       "id": "70",
-      "title": "Print Working Directory",
+      "title": "Imprimir el directorio actual",
       "summary": "",
       "content": "",
       "steps": [
@@ -251,19 +251,19 @@
               "c66580fac7c23a7f51a3f6b7b0269bde89463ea8"
             ]
           },
-          "content": "You can see you are in the `test` folder now. It shows `test` in the prompt. Print the full path of this directory. Remember that \"folder\" and \"directory\" are the same thing.",
+          "content": "Puedes ver que ahora estás en el directorio `test`. Se muestra `test` en el prompt. Imprime la ruta completa de este directorio.",
           "hints": [
-            "Use the \"print working directory\" command",
-            "Type `pwd` into the terminal",
-            "Make sure you are in the `test` folder first",
-            "Enter `cd ~/project/freeCodeCamp/test` to get to the `test` folder if you aren't there"
+            "Use el comando \"print working directory\"",
+            "Escriba `pwd` en el terminal",
+            "Asegurese de estar en el directorio `test`",
+            "Ingrese `cd ~/project/freeCodeCamp/test` para llegar al directorio `test` si no está allí"
           ]
         }
       ]
     },
     {
       "id": "80",
-      "title": "List",
+      "title": "Lista",
       "summary": "",
       "content": "",
       "steps": [
@@ -277,19 +277,19 @@
               "dcc782ce9a0aec971d42f9f14bb01a69f8e2bf61"
             ]
           },
-          "content": "That's the path to the `test` folder, it's in the `freeCodeCamp` folder. **List** the contents of this folder.",
+          "content": "Esa es la ruta a la carpeta `test`, está en la carpeta `freeCodeCamp`. **Lista** el contenido de este directorio.",
           "hints": [
-            "Use the \"list\" command",
-            "Type `ls` into the terminal",
-            "Make sure you are in the `test` folder first",
-            "Enter `cd ~/project/freeCodeCamp/test` to get to the `test` folder if you aren't there"
+            "Use el comando \"lista\"",
+            "Escriba `ls` en el terminal",
+            "Asegurese de estar en el directorio `test`",
+            "Ingrese `cd ~/project/freeCodeCamp/test` para llegar al directorio `test`"
           ]
         }
       ]
     },
     {
       "id": "90",
-      "title": "Change Directory",
+      "title": "Cambiar de Directorio",
       "summary": "",
       "content": "",
       "steps": [
@@ -303,19 +303,19 @@
               "fc534af300e1feecfccad859a6192fe9653a6adf"
             ]
           },
-          "content": "These are all files. There's no more folders to go into here. You can use `cd ..` to go back a folder level. The two dots will take you back one level. Go back to the `freeCodeCamp` folder.",
+          "content": "Estos son todos los ficheros. No hay más directorios para entrar aquí. Puedes usar `cd ..` para retroceder un nivel de directorio. Los dos puntos te llevarán un nivel atrás. Vuelve al directorio `freeCodeCamp`.",
           "hints": [
-            "Use the \"change directory\" command",
-            "Type `cd ..` into the terminal end press enter",
-            "Type the command from the `test` folder",
-            "Enter `cd ~/project/freeCodeCamp/test` to get to the `test` folder if you aren't there"
+            "Usa el comando de \"cambiar directorio\"",
+            "Escriba `cd ..` en el terminal y presione enter",
+            "Escriba el comando desde el directorio `test`",
+            "Ingrese `cd ~/project/freeCodeCamp/test` para llegar al directorio `test` si no se encuentra allí"
           ]
         }
       ]
     },
     {
       "id": "100",
-      "title": "List",
+      "title": "Lista",
       "summary": "",
       "content": "",
       "steps": [
@@ -329,12 +329,12 @@
               "34c6880ace03a80c6d9fa0eaded5520952302871"
             ]
           },
-          "content": "`test` got removed from the prompt since you left that folder and you're back in the `freeCodeCamp` folder. List the contents of what's here to remind yourself.",
+          "content": "`test` fue removido del prompt desde que dejaste ese directorio y estás de vuelta en el directorio `freeCodeCamp`. Lista el contenido de lo que hay aquí para recordártelo.",
           "hints": [
-            "Use the \"list\" command",
-            "Type `ls` into the terminal",
-            "Make sure you are in the `freeCodeCamp` folder first",
-            "Enter `cd ~/project/freeCodeCamp` to get to the `freeCodeCamp` folder if you aren't there"
+            "Use el comando \"lista\"",
+            "Escriba `ls` en el terminal",
+            "Asegurese de estar en el directorio `freeCodeCamp`",
+            "Ingrese `cd ~/project/freeCodeCamp` para llegar al directorio `freeCodeCamp`"
           ]
         }
       ]
